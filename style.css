@@ -17,7 +17,7 @@ body {
 #header {
   width: 100%;
   height: 100dvh;
-  background-image: url(images/bg1.jpg);
+  background-image: url(./images/cover.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -44,7 +44,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: rgb(45, 2, 54);
   text-decoration: none;
   font-size: 18px;
   position: relative;
@@ -72,9 +72,13 @@ nav ul li a:hover::after {
 .header-text h1 {
   font-size: 60px;
   margin-top: 20px;
+  color:#000;
 }
 .header-text h1 span {
   color: #55337B;
+}
+.header-text p{
+  color: #000;
 }
 /* -----------about----------- */
 #about {
@@ -108,7 +112,7 @@ nav ul li a:hover::after {
 .sub-title {
   font-size: 60px;
   font-weight: 600;
-  color: #fff;
+  color: #2C0F4E;
 }
 
 .tab-titles {
