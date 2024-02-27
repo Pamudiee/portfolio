@@ -80,7 +80,7 @@ nav ul li a:hover::after {
 .header-text p{
   color: #000;
 }
-/* -----------about----------- */
+/*about*/
 #about {
   padding: 80px 0;
   color: #262626;
@@ -162,7 +162,7 @@ nav ul li a:hover::after {
 
 
 
-/* --------------portfolio------------ */
+/*portfolio*/
 #portfolio {
   padding: 50px 0;
 }
@@ -207,7 +207,7 @@ nav ul li a:hover::after {
 }
 .layer a{
   margin-top: 20px;
-  color: #ff004f;
+  color: #3E2160;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
@@ -238,6 +238,7 @@ transform: scale(1.1);
   background: #3E2160;
 }
 /* --------contact------- */
+
 .contact-left{
   flex-basis: 35%;
 }
@@ -271,6 +272,10 @@ transform: scale(1.1);
   margin-inline: 0px;
   background: #55337B;
 }
+.btn.btn2:hover{
+  margin-inline: 0px;
+  background: #320135;
+}
 .contact-right form{
   width: 100%;
 }
@@ -300,9 +305,9 @@ form .btn2{
   margin-top: 20px;
 }
 .copyright i{
-  color: #ff004f;
+  color: #55337B;
 }
-/* ------- css for small screens ------ */
+/*css for small screens*/
 nav.fas{
   display: none;
 }
@@ -324,7 +329,7 @@ nav.fas{
     font-size: 25px;
   }
   nav ul{
-    background: #ff004f;
+    background: #6b4a92;
     position: fixed;
     top: 0;
     right: -200px;
