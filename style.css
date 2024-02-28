@@ -320,11 +320,12 @@ nav.fas {
 
 .menu-toggle {
   display: none;
+  color: #000;
 }
 
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(images/bg1.jpg);
+    background-image: url(./images/small_cover.jpg);
   }
   .header-text {
     margin-top: 100%;
