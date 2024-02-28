@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: #8e7ba4;
+  background: #1a0227;
   color: #fff;
 }
 
@@ -47,7 +47,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(45, 2, 54);
+  color: rgb(49, 6, 69);
   text-decoration: none;
   font-size: 18px;
   position: relative;
@@ -57,7 +57,7 @@ nav ul li a::after {
   content: "";
   width: 0;
   height: 3px;
-  background: #55337b;
+  background: #910dd3;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -78,7 +78,7 @@ nav ul li a:hover::after {
   color: #000;
 }
 .header-text h1 span {
-  color: #55337b;
+  color: #bf52f2;
 }
 .header-text p {
   color: #000;
@@ -86,7 +86,7 @@ nav ul li a:hover::after {
 /*about*/
 #about {
   padding: 80px 0;
-  color: #262626;
+  color: #fff;
 }
 
 .menu-toggle {
@@ -115,7 +115,7 @@ nav ul li a:hover::after {
 .sub-title {
   font-size: 60px;
   font-weight: 600;
-  color: #2c0f4e;
+  color: #bf52f2;
 }
 
 .tab-titles {
@@ -136,7 +136,7 @@ nav ul li a:hover::after {
   width: 0;
   top: 100%;
   height: 3px;
-  background: #55337b;
+  background: #7e4eb4;
   position: absolute;
   left: 0;
   bottom: 8px;
@@ -152,7 +152,7 @@ nav ul li a:hover::after {
 }
 
 .tab-contents ul li span {
-  color: #3e2160;
+  color: #70489d;
   font-size: 14px;
 }
 
@@ -208,7 +208,7 @@ nav ul li a:hover::after {
 }
 .layer a {
   margin-top: 20px;
-  color: #3e2160;
+  color: #4f2c77;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
@@ -228,7 +228,7 @@ nav ul li a:hover::after {
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #3e2160;
+  border: 1px solid #4f2e75;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
@@ -236,7 +236,7 @@ nav ul li a:hover::after {
   transition: background 0.5s;
 }
 .btn:hover {
-  background: #3e2160;
+  background: #653a96;
 }
 /* --------contact------- */
 
@@ -254,7 +254,7 @@ nav ul li a:hover::after {
   text-decoration: none;
 }
 .contact-left p i {
-  color: #3e2160;
+  color: #7448a7;
   margin-right: 15px;
   font-size: 25px;
 }
@@ -265,12 +265,12 @@ nav ul li a:hover::after {
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
-  color: #3e2160;
+  color: #6d41a0;
   display: inline-block;
   transition: transform 0.5s;
 }
 .social-icons a:hover {
-  color: #55337b;
+  color: #66448d;
   transform: translateY(-5px);
 }
 .btn.btn2 {
@@ -393,7 +393,7 @@ nav.fas {
   }
 }
 #msg {
-  color: #262626;
+  color: #9b39b4;
   margin-top: -40px;
   display: block;
 }
